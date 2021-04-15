@@ -1,0 +1,29 @@
+{
+  "name": "vite-pug-alpine",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "postcss": "^8.2.10",
+    "postcss-combine-media-query": "^1.0.1",
+    "postcss-nested": "^5.0.5",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.2.1",
+    "pug": "^3.0.2",
+    "stylelint": "^13.12.0",
+    "stylelint-config-standard": "^21.0.0",
+    "vite": "^2.1.5",
+    "vite-plugin-pug": "^0.1.1"
+  },
+  "dependencies": {
+    "gsap": "^3.6.1"
+  }
+}
