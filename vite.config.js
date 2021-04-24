@@ -17,6 +17,7 @@ export default defineConfig({
             input: {
                 main: resolve(__dirname, 'index.html'),
                 page: resolve(__dirname, 'pages/page.html'),
+                page2: resolve(__dirname, 'pages/page2.html'),
             },
         },
         minify: 'esbuild'

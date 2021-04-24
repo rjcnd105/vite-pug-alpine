@@ -1,0 +1,12 @@
+block content
+    -let val = 6
+    -let name = 'pug'
+
+.wrap
+    p I am #{name} template
+    button#buttonLogin Login
+
+    .grid
+        while val > 0
+            .cell cell
+            -val--
